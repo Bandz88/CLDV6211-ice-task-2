@@ -1,0 +1,12 @@
+﻿@model Car
+
+<h2>Add Car</h2>
+
+<form asp-action="Create">
+    <input asp-for="Make" placeholder="Make" /><br />
+    <input asp-for="Model" placeholder="Model" /><br />
+    <input asp-for="Year" placeholder="Year" /><br />
+    <input asp-for="Price" placeholder="Price" /><br />
+
+    <button type="submit">Save</button>
+</form>
